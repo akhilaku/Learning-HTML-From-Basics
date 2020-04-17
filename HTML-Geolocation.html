@@ -19,7 +19,7 @@ function showPosition(position) {
 <!--Handling errors and rejections-->
 <!--The second parameter of the getCurrentPosition() method is used to handle errors. 
 It specifies a function to run if it fails to get the user's location-->
-
+<script>
 function showError(error) {
   switch(error.code) {
     case error.PERMISSION_DENIED:
@@ -36,5 +36,6 @@ function showError(error) {
       break;
   }
 }
+</script>
 
 
